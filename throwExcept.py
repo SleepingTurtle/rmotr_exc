@@ -1,5 +1,2 @@
 def throw_exception():
-    try:
-        pass
-    except EOFError:
-        return "Exception: Something went wrong"
+    raise Exception('Something went wrong')
